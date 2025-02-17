@@ -5,13 +5,13 @@
 
 *TODO*: Please edit the following information in your assignment
 
-* Name:
-* GitHub Username:
-* Undergraduate or Graduate Student:
-* How many hours did it take you to complete this assignment?
-* Did you collaborate or share ideas with any other students/TAs/Professors?
-* Did you use any external resources?
-* (Optional) What was the most interesting part of the assignment? How would you improve this assignment?
+* Name:BoyangZuo	
+* GitHub Username:IanZuo
+* Undergraduate or Graduate Student:Graduate
+* How many hours did it take you to complete this assignment?10 hours ,set environments ,debuging, then upgrade to portable etc.
+* Did you collaborate or share ideas with any other students/TAs/Professors?No
+* Did you use any external resources? W3school or SDL2 tutorial
+* (Optional) What was the most interesting part of the assignment? How would you improve this assignment? to change the speed or cursor after it worked.
 
 # Implementation Logistics
 

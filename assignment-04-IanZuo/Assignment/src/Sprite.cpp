@@ -5,8 +5,8 @@
 Sprite::Sprite(SDL_Renderer* renderer, const std::string& filePath, float x, float y, float speed)
     : mRenderer(renderer), mSpeed(speed), xPositiveDirection(true), yPositiveDirection(true), mTexture(nullptr) {
 
-    // ✅ Combine base path with the provided filename
-    std::string fullPath = "C:/Users/93135/source/repos/assignment-04-IanZuo/Assignment/Assets/" + filePath;
+    // path
+    std::string fullPath = "Assignment/Assets/" + filePath;
 
     // Debugging: Print the actual file path being used
     std::cout << "Loading sprite from: " << fullPath << std::endl;

@@ -17,13 +17,13 @@ bool Application::Initialize() {
     mRenderer = SDL_CreateRenderer(mWindow, -1, SDL_RENDERER_ACCELERATED);
     if (!mWindow || !mRenderer) return false;
 // make Sprite and set speed etc
-    mainCharacter = std::make_unique<Sprite>(mRenderer, "Assignment/Assets/Spaceship.bmp", 400, 500, 3000.0f); // ✅ Faster speed
+    mainCharacter = std::make_unique<Sprite>(mRenderer, "Spaceship.bmp", 400, 500, 3000.0f);
     for (int i = 0; i < 30; ++i) {
-        float x = rand() % 760;
-        float y = rand() % 560;
-        float speed = 50.0f + (rand() % 100); // ✅ Random speed for variety
-        mEnemies.push_back(std::make_unique<Sprite>(mRenderer, "Assignment/Assets/Alien.bmp", x, y, 3000.0f));
-    }    
+    float x = rand() % 760;
+    float y = rand() % 560;
+    mEnemies.push_back(std::make_unique<Sprite>(mRenderer, "Alien.bmp", x, y, 3000.0f));
+    }
+
     return true;
 }
 
